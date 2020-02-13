@@ -12,7 +12,7 @@ from googletrans import Translator
 
 botStart = time.time()
 
-cl = LINE("fSTr2G4/t3EQ2vocVfa7xSRDUWDJVkKtPYFOTfQOhSE+H4XS9iir2Scv/jjqNAl4OC3fZlgTSHPvEAv0SC49WkhLza2J3qWAWJ5BotlBD1brgoCWAjJT4KGZDNeABUBMHgcn68Ofb+t7srQviEYjOgdB04t89/1O/w1cDnyilFU=")
+cl = LINE("kY/nkYBqI+Hd7fHvG9tffYqcD0CKZSfxLQF/6a66T9b0u2TWx5XyyJG3yimtr5dIuJ466fwYybcctEcgLi+k4MYQq1U9sISOxyfy2Zi7w2VR5vDj8r2UfThNduMjO0GkQ22JP3ns6FVkF74e/8slYAdB04t89/1O/w1cDnyilFU=")
 #cl = LINE("TOKENMU")
 #cl = LINE("Email","Password")
 #cl = LINE()
