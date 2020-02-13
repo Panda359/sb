@@ -279,7 +279,7 @@ def clBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     cl.sendMessage(to, str(helpMessage))
-                    cl.sendContact(to, "ud296655acef67cbd5e8208e63629f78b")
+                    cl.sendContact(to, "Ub3a309e79a21b29ad2917cfa23d67f59")
                 elif text.lower() == 'dell':
                     cl.removeAllMessages(op.param2)
                     cl.sendMessage(to, "Menghapus Chat")
@@ -301,7 +301,7 @@ def clBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ud296655acef67cbd5e8208e63629f78b"
+                        owner = "Ub3a309e79a21b29ad2917cfa23d67f59"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
