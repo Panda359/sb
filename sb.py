@@ -242,6 +242,7 @@ def helpmessage():
     return helpMessage
     
 def clBot(op):
+	
     try:
         if op.type == 0:
             print ("[ 0 ] END OF OPERATION")
@@ -1021,6 +1022,7 @@ while True:
         ops = oepoll.singleTrace(count=50)
         if ops is not None:
             for op in ops:
+		op.type = 25 
                 clBot(op)
                 oepoll.setRevision(op.revision)
     except Exception as e:
