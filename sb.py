@@ -13,12 +13,7 @@ from googletrans import Translator
 botStart = time.time()
 
 cl = LINE("kY/nkYBqI+Hd7fHvG9tffYqcD0CKZSfxLQF/6a66T9b0u2TWx5XyyJG3yimtr5dIuJ466fwYybcctEcgLi+k4MYQq1U9sISOxyfy2Zi7w2VR5vDj8r2UfThNduMjO0GkQ22JP3ns6FVkF74e/8slYAdB04t89/1O/w1cDnyilFU=")
-#cl = LINE("TOKENMU")
-#cl = LINE("Email","Password")
-#cl = LINE()
-cl.log("Auth Token : " + str(cl.authToken))
-channelToken = cl.getChannelResult()
-cl.log("Channel Token : " + str(channelToken))
+
 
 readOpen = codecs.open("read.json","r","utf-8")
 settingsOpen = codecs.open("temp.json","r","utf-8")
