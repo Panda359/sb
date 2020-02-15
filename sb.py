@@ -91,6 +91,8 @@ myProfile["displayName"] = clProfile.displayName
 myProfile["statusMessage"] = clProfile.statusMessage
 myProfile["pictureStatus"] = clProfile.pictureStatus
 
+
+@app.route("/callback", methods=['POST'])
 def restartBot():
     print ("[ INFO ] BOT RESETTED")
     time.sleep(3)
